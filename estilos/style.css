@@ -16,7 +16,7 @@ body, html{
 
 #grid-container{
     display: grid;
-    grid-template:  'header header' 70px 
+    grid-template:  'header header' 60px 
                     'nav main' 100% 
                     'footer footer' 50px /
                     100px calc(100% - 100px);
@@ -41,36 +41,85 @@ header ul{
     justify-content: space-around;
     align-items: center;
     height: 100%;
-
 }
 
 header ul li{
     display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
 }
+
+header ul li:hover{
+    background-color: rgba(0, 0, 0, 0.11);
+    transition: ease-in-out all .3s;
+}
+
 
 #navegation-bar{
     height: 100%;
-    background-color: var(--cor01);
-    width: 70px;
+    width: 100px;
+    position: absolute;
 }
 
 #navegation-bar  ul{
     display: flex;
     list-style: none;
     flex-flow: column nowrap;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 100px;
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+}
+
+.icones{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
 }
 
 main{
     grid-area: main;
-    background-color: var(--cor02);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main section{
+    margin-top: 20px;
     padding: 30px;
+}
+
+aside{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#projects-area{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    height: auto;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.iframes{
+    border: 1px solid #ccc;
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.158);
+}
+
+.iframes:hover{
+    transform: translate(-5px, -5px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.199);
+    transition: ease-in-out all .4s;
 }
 
 footer{
