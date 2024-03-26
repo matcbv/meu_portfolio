@@ -60,7 +60,7 @@ header ul li:hover{
 }
 
 header ul li:hover::after{
-    content: '|';
+    content: ' |';
 }
 
 #navegation-bar{
