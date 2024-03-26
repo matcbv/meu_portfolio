@@ -47,11 +47,12 @@ header ul{
 header ul li{
     display: inline-block;
     width: auto;
+    height: 100%;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
-    border-radius: 5px;
     font-size: 1.3em;
+    border-radius: 10px;
 }
 
 header ul li:hover{
@@ -61,6 +62,18 @@ header ul li:hover{
 
 header ul li:hover::after{
     content: ' |';
+    animation: blink 0.8s infinite linear;
+}
+
+
+@keyframes blink {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+
 }
 
 #navegation-bar{
