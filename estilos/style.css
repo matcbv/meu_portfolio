@@ -59,6 +59,9 @@ header ul li:hover{
     transition: ease-in-out all .3s;
 }
 
+header ul li:hover::after{
+    content: '|';
+}
 
 #navegation-bar{
     height: 100%;
