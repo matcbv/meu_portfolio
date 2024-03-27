@@ -63,6 +63,7 @@ header ul li a{
     line-height: 55px;
     vertical-align: middle;
     text-decoration: none;
+    color: white;
 }
 
 a:visited{
