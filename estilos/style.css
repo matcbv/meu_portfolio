@@ -285,6 +285,13 @@ form #col-02 label{
     background-color: #664580;
     font-size: 1em;
     border-radius: 6px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.247);
+}
+
+#buttons-div input:hover{
+    transform: translate(-2px, -2px);
+    transition: ease-in-out all .3s;
+    cursor: pointer;
 }
 
 footer{
