@@ -1,5 +1,5 @@
 :root{
-    --cor01: #68358f;
+    --cor01: #603283;
 }
 
 * {
@@ -210,11 +210,12 @@ aside h1{
 
 form{
     display: grid;
-    grid-template:  'col-01 col-02' 100% /
+    grid-template:  'col-01 col-02' 350px
+                    'buttons buttons' auto /
                     350px 350px;
     gap: 0 40px;
     border: 2px solid black;
-    padding: 30px 50px;
+    padding: 20px 50px;
     border-radius: 10px;
 }
 
@@ -222,7 +223,8 @@ form #col-01{
     grid-area: col-01;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin: 0;
 }
 
 form #col-01 span{
@@ -265,6 +267,21 @@ form #col-02 label{
     margin-bottom: 0.4px;
     width: 95.1%;
     border-radius: 4px 4px 0 0;
+}
+
+#buttons-div{
+    display: flex;
+    justify-content: space-around;
+    grid-column: span 2;
+    align-items: center;
+    margin: 0;
+}
+
+#buttons-div input{
+    padding: 10px 25px;
+    color: white;
+    background-color: var(--cor01);
+    font-size: 1em;
 }
 
 footer{
