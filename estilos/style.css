@@ -229,7 +229,6 @@ form #col-01{
 
 form #col-01 span{
     display: flex;
-    justify-content: space-between;
 }
 
 form #col-01 input{
