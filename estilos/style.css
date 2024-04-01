@@ -242,7 +242,7 @@ form #col-01 input{
 form #col-01 label{
     display: inline-block;
     width: 45%;
-    background-color: var(--cor01);
+    background-image: linear-gradient(to right, #4e2a69, #664580, #6f5186, #897199);
     color: white;
     padding: 10px;
     border-radius: 4px 0 0 4px;
@@ -261,7 +261,7 @@ form #col-02 textarea{
 
 form #col-02 label{
     display: block;
-    background-color: var(--cor01);
+    background-image: linear-gradient(to right, #4e2a69, #664580, #6f5186, #897199);
     color: white;
     padding: 10px;
     margin-bottom: 0.4px;
@@ -280,7 +280,7 @@ form #col-02 label{
 #buttons-div input{
     padding: 10px 25px;
     color: white;
-    background-color: var(--cor01);
+    background-color: #664580;
     font-size: 1em;
 }
 
