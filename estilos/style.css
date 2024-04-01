@@ -171,7 +171,7 @@ aside h1{
     flex-flow: row wrap;
     height: auto;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .iframes-box{
