@@ -315,7 +315,7 @@ footer span:hover{
     border: 2px solid black;
     position: relative;
     left: calc(100vw - 175px);
-    bottom: 10px;
+    bottom: 12px;
 }
 
 #up-icon img{
