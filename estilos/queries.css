@@ -1,0 +1,64 @@
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+
+@media screen and (max-width:768px){
+    header ul li{
+        font-size: 1em;
+    }
+
+    main section{
+        width: 80%;
+    }
+
+    main section p{
+        font-size: 1.1em;
+    }
+
+    #projects-aside-large{
+        display: none;
+    }
+
+    #projects-aside-small{
+        display: flex;
+    }
+
+    footer{
+        padding: 0 10px;
+    }
+
+    footer ul li{
+        margin: 9px 0;
+        font-size: 0.8em;
+    }
+    
+    footer p{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width:600px){
+    #grid-container{
+        grid-template-columns: 60px calc(100% - 60px);
+    }
+
+    #navegation-bar, #navegation-bar ul{
+        width: 60px;
+    }
+
+    #navegation-bar ul li{
+        width: 47px;
+        height: 47px;
+    }
+
+    main section h1, main aside h1{
+        font-size: 1.6em;
+    }
+
+    .iframes-box{
+        height: 400px;
+    }
+}
