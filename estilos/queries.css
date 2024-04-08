@@ -23,7 +23,7 @@
     }
 
     #projects-aside-small{
-        display: flex;
+        display: none;
     }
 
     footer{
