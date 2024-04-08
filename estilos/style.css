@@ -190,6 +190,10 @@ aside h1{
     display: block;
 }
 
+.titles{
+    display: none;
+}
+
 .background-box{
     border: 1px solid #ccc;
     height: 300px;

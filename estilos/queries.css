@@ -65,4 +65,28 @@
     .iframes-box{
         height: 400px;
     }
+
+    #projects-area{
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+    #box-01, #box-02, #box-03{
+        margin-bottom: 50px;
+        width: 200px;
+        height: 400px;
+    }
+
+    #projects-aside-small h1{
+        margin-bottom: 50px;
+    }
+
+    #project-titles{
+        display: none;
+    }
+
+    .titles{
+        display: block;
+        padding: 20px;
+    }
 }
