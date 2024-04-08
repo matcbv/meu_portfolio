@@ -5,6 +5,10 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 
+@media screen and (max-width:1200px) {
+
+}
+
 @media screen and (max-width:768px){
     header ul li{
         font-size: 1em;

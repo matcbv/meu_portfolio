@@ -257,14 +257,16 @@ aside h1{
 
 form{
     display: grid;
-    grid-template:  'col-01 col-02' 350px
+    grid-template:  'col-01 col-02' 100%
                     'buttons buttons' auto /
-                    350px 350px;
+                    auto auto;
     gap: 0 40px;
-    border: 2px solid black;
-    padding: 20px 40px 30px 40px;
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.226);
+}
+
+section form div{
+    margin: 0;
 }
 
 form #col-01{
@@ -321,6 +323,7 @@ form #col-02 label{
 }
 
 #buttons-div{
+    grid-area: buttons;
     display: flex;
     justify-content: space-around;
     grid-column: span 2;
