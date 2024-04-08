@@ -182,16 +182,35 @@ aside h1{
 
 #projects-aside-small{
     display: none;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+#projects-aside-small h1{
+    display: block;
 }
 
 .background-box{
     border: 1px solid #ccc;
-    height: 400px;
-    width: 200px;
-    display: inline-block;
+    height: 300px;
+    width: 150px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.158);
-    z-index: 0;
     border: 3px solid black;
+}
+
+#box-01{
+    background: black url(../imagens/projeto_tela_login.PNG) no-repeat;
+    background-size: cover;
+}
+
+#box-02{
+    background: black url(../imagens/projeto_portatil.PNG) no-repeat;
+    background-size: cover;
+}
+
+#box-03{
+    background: black url(../imagens/projeto_cordel.PNG) no-repeat;
+    background-size: cover;
 }
 
 .iframes-box{

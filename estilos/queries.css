@@ -23,7 +23,7 @@
     }
 
     #projects-aside-small{
-        display: none;
+        display: flex;
     }
 
     footer{
@@ -37,6 +37,10 @@
     
     footer p{
         font-size: 0.8em;
+    }
+
+    aside h2{
+        font-size: 1.2em;
     }
 }
 
