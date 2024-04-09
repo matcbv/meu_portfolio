@@ -52,6 +52,7 @@ header ul li{
     text-align: center;
     box-sizing: border-box;
     font-size: 1.2em;
+    font-weight: bold;
     border-radius: 5px;
     padding: 0 13px;
 }
