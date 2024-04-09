@@ -102,7 +102,7 @@
 
 @media screen and (max-width:600px){
     header ul li{
-        padding: 0;
+        padding: 0 5px;
         font-size: 0.8em;
     }
 
