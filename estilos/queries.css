@@ -18,6 +18,10 @@
         display: none;
     }
 
+    #first-section{
+        margin-top: 50px;
+    }
+
     main section{
         width: 80%;
     }
