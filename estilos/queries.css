@@ -82,6 +82,10 @@
         padding: 10px 15px;
     }
 
+    #last-section h1{
+        margin-bottom: 40px;
+    }
+
     #up-icon{
         display: none;
     }
