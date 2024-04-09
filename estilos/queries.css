@@ -69,7 +69,7 @@
     }
 
     #div-form{
-        width: 70%;
+        width: 100%;
         margin: auto;
         padding: 0;
     }
@@ -80,6 +80,10 @@
 
     #buttons-div input{
         padding: 10px 15px;
+    }
+
+    #up-icon{
+        display: none;
     }
 }
 
