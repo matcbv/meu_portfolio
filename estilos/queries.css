@@ -4,11 +4,6 @@
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-
-@media screen and (max-width:1200px) {
-
-}
-
 @media screen and (max-width:768px){
     header ul li{
         font-size: 1em;
@@ -45,6 +40,46 @@
 
     aside h2{
         font-size: 1.2em;
+    }
+
+    form{
+        grid-template:  'row-01' 40%
+                        'row-02' 40%
+                        'buttons' 20% /
+                        100%
+    }
+
+    form #col-01{
+        grid-area: row-01;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    form #col-01 span{
+        margin-bottom: 10px;
+    }
+
+    form #col-02{
+        grid-area: row-02;
+    }
+
+    form #col-02 textarea, form #col-02 label{
+        width: 80%;
+    }
+
+    #div-form{
+        width: 70%;
+        margin: auto;
+        padding: 0;
+    }
+
+    #buttons-div{
+        justify-content: space-evenly;
+    }
+
+    #buttons-div input{
+        padding: 10px 15px;
     }
 }
 
