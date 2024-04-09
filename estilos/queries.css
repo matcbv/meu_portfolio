@@ -6,7 +6,16 @@
 
 @media screen and (max-width:768px){
     header ul li{
-        font-size: 1em;
+        font-size: 0.9em;
+    }
+    
+    header ul li:hover{
+        background-color: transparent;
+        transition: none;
+    }
+
+    header ul li:hover::after{
+        display: none;
     }
 
     main section{
@@ -92,6 +101,10 @@
 }
 
 @media screen and (max-width:600px){
+    header ul li{
+        padding: 0 10px;
+    }
+
     #grid-container{
         grid-template-columns: 60px calc(100% - 60px);
     }
