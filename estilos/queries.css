@@ -23,7 +23,7 @@
     }
 
     main section{
-        width: 80%;
+        width: 90%;
     }
 
     main section p{
@@ -119,8 +119,8 @@
     }
 
     #navegation-bar ul li{
-        width: 47px;
-        height: 47px;
+        width: 45px;
+        height: 45px;
     }
 
     main section h1, main aside h1{
@@ -138,8 +138,8 @@
 
     #box-01, #box-02, #box-03{
         margin-bottom: 50px;
-        width: 200px;
-        height: 400px;
+        width: 210px;
+        height: 419px;
     }
 
     #projects-aside-small h1{
