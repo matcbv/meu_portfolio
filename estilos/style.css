@@ -213,7 +213,7 @@ aside h1{
 }
 
 #box-03{
-    background: black url(../imagens/projeto_cordel.PNG) no-repeat;
+    background: black url(../imagens/projeto_cordel.PNG) no-repeat ;
     background-size: cover;
 }
 
@@ -251,18 +251,17 @@ aside h1{
 }
 
 #div-form{
-    display: flex;
-    justify-content: space-around;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.226);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 40px 40px 80px 50px;
 }
 
 form{
     display: grid;
     grid-template:  'col-01 col-02' 100%
                     'buttons buttons' auto /
-                    auto auto;
-    gap: 0 40px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.226);
+                    45% 55%;
 }
 
 section form div{
@@ -300,20 +299,26 @@ form #col-01 label{
 
 form #col-02{
     grid-area: col-02;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
 }
 
 form #col-02 textarea{
+    display: inline-block;
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
     border: 1.5px solid black;
     box-sizing: border-box;
     border-radius: 0 0 6px 6px;
     padding: 6px;
+    width: 70%;
+    height: 60%;
 }
 
 form #col-02 label{
-    display: block;
+    width: 70%;
     background-image: linear-gradient(to right, #4e2a69, #664580, #6f5186, #897199);
     color: white;
     padding: 10px;
@@ -326,9 +331,8 @@ form #col-02 label{
     grid-area: buttons;
     display: flex;
     justify-content: space-around;
-    grid-column: span 2;
     align-items: center;
-    margin: 0;
+    grid-column: 1 / 3;
 }
 
 #buttons-div input{
