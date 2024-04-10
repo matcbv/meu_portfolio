@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:992px){
     #buttons-div{
         display: none;
     }
@@ -24,7 +24,6 @@
         display: block;
     }
 }
-
 
 @media screen and (max-width:768px){
     header ul li{
