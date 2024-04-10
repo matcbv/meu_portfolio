@@ -44,8 +44,8 @@
 
     #grid-container{
         grid-template:  'header' 55px 
-                        'main' calc(100% - 135px)
-                        'footer' 80px /
+                        'main' calc(100% - 145px)
+                        'footer' 90px /
                         100%;
     }
 
