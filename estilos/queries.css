@@ -33,6 +33,11 @@
         display: block;
     }
 
+    #buttons-div ul{
+        width: 75%;
+        margin: auto;
+    }
+
     #navegation-bar{
         display: none;
     }
@@ -115,7 +120,7 @@
 
     #last-section{
         margin-bottom: 0;
-        width: 80%;
+        width: 75%;
     }
 
     #up-icon{
