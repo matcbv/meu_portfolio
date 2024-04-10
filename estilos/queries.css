@@ -4,6 +4,16 @@
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
+@media screen and (max-height:450px){
+    #navegation-bar ul{
+        justify-content: flex-end;
+    }
+
+    #navegation-bar ul li{
+        margin-bottom: 10px;
+    }
+}
+
 @media screen and (max-width:768px){
     header ul li{
         font-size: 1em;
@@ -105,6 +115,11 @@
 }
 
 @media screen and (max-width:600px){
+
+    main section p{
+        font-size: 0.9em;
+    }
+
     header ul li{
         padding: 0 5px;
         font-size: 0.8em;
@@ -124,7 +139,7 @@
     }
 
     main section h1, main aside h1{
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
 
     .iframes-box{

@@ -105,7 +105,7 @@ header ul li:hover::after{
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    height: auto;
+    height: 100%;
     width: 80px;
     position: fixed;
     top: 50%;
