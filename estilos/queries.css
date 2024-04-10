@@ -4,6 +4,28 @@
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
+@media screen and (min-width:1200px){
+    #projects-aside-large{
+        display: block;
+    }
+
+    #project-titles h2{
+        font-size: 1.4em;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:768px){
+    #buttons-div{
+        display: none;
+    }
+
+    #navegation-bar{
+        display: block;
+    }
+}
+
+
 @media screen and (max-width:768px){
     header ul li{
         font-size: 1em;
@@ -39,14 +61,6 @@
 
     main section p{
         font-size: 1em;
-    }
-
-    #projects-aside-large{
-        display: none;
-    }
-
-    #projects-aside-small{
-        display: flex;
     }
 
     footer{
@@ -90,10 +104,6 @@
 
     form #col-02 textarea, form #col-02 label{
         width: 80%;
-    }
-
-    #buttons-div{
-        display: block;
     }
 
     #div-form{
