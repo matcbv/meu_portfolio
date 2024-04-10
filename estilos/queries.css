@@ -23,9 +23,9 @@
     #navegation-bar{
         display: block;
     }
-    
+
     #up-icon{
-        display: none;
+        display: block;
     }
 }
 

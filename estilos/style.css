@@ -302,6 +302,7 @@ form #col-01 label{
     color: white;
     padding: 10px;
     border-radius: 6px 0 0 6px;
+    font-weight: bold;
 }
 
 form #col-02{
@@ -332,6 +333,7 @@ form #col-02 label{
     margin-bottom: 0.4px;
     border-radius: 6px 6px 0 0;
     box-sizing: border-box;
+    font-weight: bold;
 }
 
 #form-buttons{
@@ -424,7 +426,15 @@ footer span:hover{
     border: 2px solid black;
     position: relative;
     left: calc(100vw - 175px);
-    bottom: 12px;
+    bottom: 25px;
+    display: none;
+}
+
+#up-icon a{
+    display: inline-block;
+    width: 100%;
+    width: 100%;
+    margin: 0;
 }
 
 #up-icon img{
