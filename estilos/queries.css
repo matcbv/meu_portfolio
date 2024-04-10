@@ -4,16 +4,6 @@
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media screen and (max-height:450px){
-    #navegation-bar ul{
-        justify-content: flex-end;
-    }
-
-    #navegation-bar ul li{
-        margin-bottom: 10px;
-    }
-}
-
 @media screen and (max-width:768px){
     header ul li{
         font-size: 1em;
@@ -26,6 +16,17 @@
 
     header ul li:hover::after{
         display: none;
+    }
+
+    #navegation-bar{
+        display: none;
+    }
+
+    #grid-container{
+        grid-template:  'header' 55px 
+                        'main' calc(100% - 135px)
+                        'footer' 80px /
+                        100%;
     }
 
     #first-section{
@@ -91,22 +92,26 @@
         width: 80%;
     }
 
+    #buttons-div{
+        display: block;
+    }
+
     #div-form{
         width: 100%;
         margin: auto;
         padding: 0;
     }
 
-    #buttons-div{
-        justify-content: space-evenly;
-    }
-
-    #buttons-div input{
+    #form-buttons input{
         padding: 10px 15px;
     }
 
     #last-section h1{
         margin-bottom: 40px;
+    }
+
+    #last-section{
+        margin-bottom: 0;
     }
 
     #up-icon{
@@ -123,19 +128,6 @@
     header ul li{
         padding: 0 5px;
         font-size: 0.8em;
-    }
-
-    #grid-container{
-        grid-template-columns: 60px calc(100% - 60px);
-    }
-
-    #navegation-bar, #navegation-bar ul{
-        width: 60px;
-    }
-
-    #navegation-bar ul li{
-        width: 45px;
-        height: 45px;
     }
 
     main section h1, main aside h1{
