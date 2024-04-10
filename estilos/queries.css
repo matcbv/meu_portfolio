@@ -23,6 +23,10 @@
     #navegation-bar{
         display: block;
     }
+    
+    #up-icon{
+        display: none;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -122,10 +126,6 @@
     #last-section{
         margin-bottom: 0;
         width: 80%;
-    }
-
-    #up-icon{
-        display: none;
     }
 }
 
