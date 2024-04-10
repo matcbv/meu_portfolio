@@ -15,21 +15,7 @@
     }
 }
 
-@media screen and (min-width:992px){
-    #buttons-div{
-        display: none;
-    }
-
-    #navegation-bar{
-        display: block;
-    }
-
-    #up-icon{
-        display: block;
-    }
-}
-
-@media screen and (max-width:768px){
+@media screen and (max-width:992px){
     header ul li{
         font-size: 1em;
     }
@@ -41,6 +27,10 @@
 
     header ul li:hover::after{
         display: none;
+    }
+
+    #buttons-div{
+        display: block;
     }
 
     #navegation-bar{
@@ -126,6 +116,10 @@
     #last-section{
         margin-bottom: 0;
         width: 80%;
+    }
+
+    #up-icon{
+        display: none;
     }
 }
 
