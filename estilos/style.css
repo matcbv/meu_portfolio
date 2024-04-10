@@ -349,6 +349,7 @@ form #col-02 label{
     font-size: 1em;
     border-radius: 6px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.247);
+    font-weight: bold;
 }
 
 #form-buttons input:hover{
