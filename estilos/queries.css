@@ -53,7 +53,7 @@
     }
 
     main section p{
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
     footer{
@@ -126,7 +126,7 @@
 @media screen and (max-width:600px){
 
     main section p{
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
     header ul li{
