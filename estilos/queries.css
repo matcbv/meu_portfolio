@@ -125,10 +125,6 @@
 
 @media screen and (max-width:600px){
 
-    main section p{
-        font-size: 0.8em;
-    }
-
     header ul li{
         padding: 0 5px;
         font-size: 0.8em;
