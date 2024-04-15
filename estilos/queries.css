@@ -92,6 +92,10 @@
         margin-top: 20px;
     }
 
+    form #col-01 input{
+        font-size: 0.9em;
+    }
+
     form #col-01 span{
         margin-bottom: 10px;
     }
@@ -100,7 +104,12 @@
         grid-area: row-02;
     }
 
-    form #col-02 textarea, form #col-02 label{
+    form #col-02 textarea{
+        width: 80%;
+        font-size: 0.8em;
+    }
+
+    form #col-02 label{
         width: 80%;
     }
 
