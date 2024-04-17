@@ -9,6 +9,10 @@
         display: block;
     }
 
+    #projects-aside-small{
+        display: none;
+    }
+
     #project-titles h2{
         font-size: 1.4em;
         width: 300px;
