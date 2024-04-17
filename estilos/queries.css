@@ -4,7 +4,7 @@
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media screen and (min-width:1200px){
+@media screen and (min-width:1200px) and (min-height:570px){
     #projects-aside-large{
         display: block;
     }
