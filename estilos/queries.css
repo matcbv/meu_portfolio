@@ -106,6 +106,7 @@
 
     form #col-02{
         grid-area: row-02;
+        margin-top: 5px;
     }
 
     form #col-02 textarea{
