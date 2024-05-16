@@ -159,6 +159,7 @@ main section div{
 main section p{
     text-align: justify;
     font-size: 1.2em;
+    line-height: 30px;
 }
 
 aside{
@@ -449,5 +450,6 @@ footer span:hover{
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     color: red;
-    transform: translate(0, -25px)
+    transform: translate(0, -25px);
+    font-weight: bold;
 }
