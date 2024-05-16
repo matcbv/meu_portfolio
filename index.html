@@ -90,17 +90,17 @@
             <section id="last-section">
                 <h1>Contate-me 📞</h1>
                 <div id="div-form">
-                    <form autocomplete="on" method="post">
+                    <form autocomplete="on" method="post" action="#">
                         <div id="col-01">
-                            <span><label for="name">Nome: </label><input type="text" name="name" id="name" required></input></span>
-                            <span><label for="subject">Assunto: </label><input type="text" name="subject" id="subject" required></input></span>
-                            <span><label for="tel">Contato: </label><input type="tel" name="tel" id="tel" required></span>
+                            <span id="name-span"><label for="name">Nome: </label><input type="text" name="name" id="name" required></input></span>
+                            <span id="subject-span"><label for="subject">Assunto: </label><input type="text" name="subject" id="subject" required></input></span>
+                            <span id="contact-span"><label for="tel">Contato: </label><input type="tel" name="tel" id="tel" required></span>
                         </div>
                         <div id="col-02">
                             <label for="message">Mensagem: </label><textarea name="message" id="message" rows="8" required placeholder="Escreva sua mensagem aqui..."></textarea>
                         </div>
                         <div id="form-buttons">
-                            <input type="submit">
+                            <input type="submit" id="submit-btn">
                             <input type="reset"  value="Limpar">
                         </div>
                     </form>
@@ -124,5 +124,6 @@
             <p><span>© 2024 Matheus Cerqueira</span> - Todos os direitos reservados.</p>
         </footer>
     </div>
+    <script src="scripts/form-script.js"></script>
 </body>
 </html>
