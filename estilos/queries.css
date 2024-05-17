@@ -83,17 +83,17 @@
     }
 
     form{
-        grid-template:  'row-01' 40%
-                        'row-02' 40%
-                        'buttons' 20% /
-                        100%
+        grid-template:  'row-01' auto
+                        'row-02' auto
+                        'buttons' auto /
+                        100%;
+        padding: 20px 0;
     }
 
     form #col-01{
         grid-area: row-01;
         width: 80%;
         margin: auto;
-        margin-top: 20px;
     }
 
     form #col-01 input{
@@ -106,7 +106,6 @@
 
     form #col-02{
         grid-area: row-02;
-        margin-top: 5px;
     }
 
     form #col-02 textarea{
@@ -126,6 +125,11 @@
 
     #form-buttons input{
         padding: 10px 15px;
+    }
+
+    .form-alert{
+        margin-bottom: 5px;
+        font-size: 0.8em;
     }
 
     #last-section h1{

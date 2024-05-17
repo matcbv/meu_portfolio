@@ -447,9 +447,8 @@ footer span:hover{
 }
 
 .form-alert{
-    position: absolute;
     font-family: Arial, Helvetica, sans-serif;
-    color: red;
-    transform: translate(0, -25px);
+    color: #ed3737;
     font-weight: bold;
+    font-size: 0.9em;
 }

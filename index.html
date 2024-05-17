@@ -21,10 +21,10 @@
         </header>
         <nav id="navegation-bar">
             <ul>
-                <li><a href="https://github.com/matcbv" target="_blank" title="GitHub"><img class="icones" src="imagens/github_icon.png" alt="Ícone Github"></a></li>
-                <li><a href="https://www.instagram.com/matheus.cbv" target="_blank" title="Instagram"><img class="icones" src="imagens/instagram_icon.png" alt="Ícone Instagram"></a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=5524981002374&text=Envie%20sua%20mensagem!%20Estou%20sempre%20dispon%C3%ADvel." target="_blank" title="WhatsApp"><img class="icones" src="imagens/whatsapp_icon.png" alt="Ícone WhatsApp"></a></li>
-                <li><a href="https://t.me/matcbv" target="_blank" title="Telegram"><img class="icones" src="imagens/telegram_icon.png" alt="Ícone Telegram"></a></li>
+                <li><a rel="noopener" href="https://github.com/matcbv" target="_blank" title="GitHub"><img class="icones" src="imagens/github_icon.png" alt="Ícone Github"></a></li>
+                <li><a rel="noopener" href="https://www.instagram.com/matheus.cbv" target="_blank" title="Instagram"><img class="icones" src="imagens/instagram_icon.png" alt="Ícone Instagram"></a></li>
+                <li><a rel="noopener" href="https://api.whatsapp.com/send?phone=5524981002374&text=Envie%20sua%20mensagem!%20Estou%20sempre%20dispon%C3%ADvel." target="_blank" title="WhatsApp"><img class="icones" src="imagens/whatsapp_icon.png" alt="Ícone WhatsApp"></a></li>
+                <li><a rel="noopener" href="https://t.me/matcbv" target="_blank" title="Telegram"><img class="icones" src="imagens/telegram_icon.png" alt="Ícone Telegram"></a></li>
             </ul>
         </nav>
         <span id="about-me"></span>
@@ -46,13 +46,13 @@
                 </div>
                 <div id="projects-area">
                     <div class="iframes-box">
-                        <iframe src="../projeto_formulario/index.html" frameborder="0" height="600px" sandbox="allow-scripts allow-same-origin"></iframe>
+                        <iframe title="Formulário" src="../projeto_formulario/index.html" frameborder="0" height="600px" sandbox="allow-scripts allow-same-origin"></iframe>
                     </div>
                     <div class="iframes-box">
-                        <iframe src="../site_portatil/index.html" frameborder="0" height="600px" sandbox="allow-scripts allow-same-origin"></iframe>
+                        <iframe title="Simulador de smartphone" src="../site_portatil/index.html" frameborder="0" height="600px" sandbox="allow-scripts allow-same-origin"></iframe>
                     </div>
                     <div class="iframes-box">
-                        <iframe src="../site_cordel/index.html" frameborder="0" height="600px" sandbox="allow-scripts allow-same-origin"></iframe>
+                        <iframe title="Site com cordel" src="../site_cordel/index.html" frameborder="0" height="600px" sandbox="allow-scripts allow-same-origin"></iframe>
                     </div>
                 </div>
             </aside>
@@ -65,15 +65,15 @@
                 </div>
                 <div id="projects-area">
                     <h2 class="titles">Projeto Login</h2>
-                    <a href="https://matcbv.github.io/projeto_formulario/" target="_blank" class="projects-links">
+                    <a rel="noopener" href="https://matcbv.github.io/projeto_formulario/" target="_blank" class="projects-links">
                         <div id="box-01" class="background-box"></div>
                     </a>
                     <h2 class="titles">Projeto Portátil</h2>
-                    <a href="https://matcbv.github.io/site_portatil/" target="_blank" class="projects-links">
+                    <a rel="noopener" href="https://matcbv.github.io/site_portatil/" target="_blank" class="projects-links">
                         <div id="box-02" class="background-box"></div>
                     </a>
                     <h2 class="titles">Projeto Cordel</h2>
-                    <a href="https://matcbv.github.io/site_cordel/" target="_blank" class="projects-links">
+                    <a rel="noopener" href="https://matcbv.github.io/site_cordel/" target="_blank" class="projects-links">
                         <div id="box-03" class="background-box"></div>
                     </a>
                 </div>
@@ -92,16 +92,16 @@
                 <div id="div-form">
                     <form autocomplete="on" method="post" action="#">
                         <div id="col-01">
-                            <span><label for="name">Nome: </label><input type="text" name="name" id="name" required></input></span>
-                            <span><label for="subject">Assunto: </label><input type="text" name="subject" id="subject" required></input></span>
-                            <span><label for="tel">Contato: </label><input type="tel" name="tel" id="tel" required></span>
+                            <span id="name-span"><label for="name">Nome: </label><input type="text" name="name" id="name" required></input></span>
+                            <span id="subject-span"><label for="subject">Assunto: </label><input type="text" name="subject" id="subject" required></input></span>
+                            <span id="contact-span"><label for="tel">Contato: </label><input type="tel" name="tel" id="tel" required></span>
                         </div>
                         <div id="col-02">
                             <label for="message">Mensagem: </label><textarea name="message" id="message" rows="8" required placeholder="Escreva sua mensagem aqui..."></textarea>
                         </div>
                         <div id="form-buttons">
                             <input type="submit" id="submit-btn">
-                            <input type="reset"  value="Limpar">
+                            <input type="reset"  value="Limpar" id="reset-btn">
                         </div>
                     </form>
                 </div>
@@ -109,10 +109,10 @@
             <div id="up-icon"><a href="#about-me" target="_self" title="Voltar ao topo"><img src="imagens/up-icon.png" alt="Icone para topo"></a></div>
             <div id="buttons-div">
                 <ul>
-                    <li><a href="https://github.com/matcbv" target="_blank" title="GitHub"><img class="icones" src="imagens/github_icon.png" alt="Ícone Github"></a></li>
-                    <li><a href="https://www.instagram.com/matheus.cbv" target="_blank" title="Instagram"><img class="icones" src="imagens/instagram_icon.png" alt="Ícone Instagram"></a></li>
-                    <li><a href="https://api.whatsapp.com/send?phone=5524981002374&text=Envie%20sua%20mensagem!%20Estou%20sempre%20dispon%C3%ADvel." target="_blank" title="WhatsApp"><img class="icones" src="imagens/whatsapp_icon.png" alt="Ícone WhatsApp"></a></li>
-                    <li><a href="https://t.me/matcbv" target="_blank" title="Telegram"><img class="icones" src="imagens/telegram_icon.png" alt="Ícone Telegram"></a></li>
+                    <li><a rel="noopener" href="https://github.com/matcbv" target="_blank" title="GitHub"><img class="icones" src="imagens/github_icon.png" alt="Ícone Github"></a></li>
+                    <li><a rel="noopener" href="https://www.instagram.com/matheus.cbv" target="_blank" title="Instagram"><img class="icones" src="imagens/instagram_icon.png" alt="Ícone Instagram"></a></li>
+                    <li><a rel="noopener" href="https://api.whatsapp.com/send?phone=5524981002374&text=Envie%20sua%20mensagem!%20Estou%20sempre%20dispon%C3%ADvel." target="_blank" title="WhatsApp"><img class="icones" src="imagens/whatsapp_icon.png" alt="Ícone WhatsApp"></a></li>
+                    <li><a rel="noopener" href="https://t.me/matcbv" target="_blank" title="Telegram"><img class="icones" src="imagens/telegram_icon.png" alt="Ícone Telegram"></a></li>
                 </ul>
             </div>
         </main>
